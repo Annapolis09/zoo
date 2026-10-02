@@ -1,0 +1,16 @@
+class Animal:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def Eat(self):
+    pass
+  def Sleep(self):
+    pass
+
+class Bird(Animal):
+  def Fly(self):
+    pass
+class Mammal(Animal):
+  def Walr(self):
+    pass
